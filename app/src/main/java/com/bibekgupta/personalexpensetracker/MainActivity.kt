@@ -11,7 +11,9 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import com.bibekgupta.personalexpensetracker.ui.theme.PersonalExpenseTrackerTheme
 import com.bibekgupta.personalexpensetracker.utils.navigator.AppNavigator
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
